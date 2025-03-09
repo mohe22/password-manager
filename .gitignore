@@ -1,0 +1,46 @@
+# .gitignore
+
+# Backend (FastAPI)
+server/.env                # Environment variables
+server/src/.env                # Environment variables
+server/__pycache__/        # Python cache files
+server/.venv/              # Python virtual environment
+server/venv/               # Python virtual environment
+server/env/                # Python virtual environment
+server/*.pyc               # Compiled Python files
+server/.pytest_cache/      # Pytest cache
+server/.mypy_cache/        # Mypy cache
+server/.coverage           # Coverage reports
+server/htmlcov/            # HTML coverage reports
+server/.idea/              # JetBrains IDE files
+server/.vscode/            # VSCode settings
+
+# Frontend (React)
+client/node_modules/*      # Node.js dependencies
+client/.env               # React environment variables
+client/build/             # React production build
+client/.DS_Store          # macOS-specific file
+client/.cache/            # Build cache
+client/.parcel-cache/     # Parcel cache
+client/.eslintcache       # ESLint cache
+client/coverage/          # Test coverage reports
+client/.vscode/           # VSCode settings
+
+# General
+.DS_Store                  # macOS-specific file
+*.log                      # Log files
+*.pyc                      # Compiled Python files
+*.swp                      # Vim swap files
+*.swo                      # Vim swap files
+*.env                      # General environment variables
+dist/                      # Distribution/build folders
+*.egg-info/                # Python package metadata
+*.sqlite3                  # SQLite database files
+*.sqlite                   # SQLite database files
+*.db                       # Database files
+*.bak                      # Backup files
+*.tmp                      # Temporary files
+*.pid                      # Process ID files
+*.pid.lock                 # Process ID lock files
+*.pem                      # Certificate files (if not needed)
+*.key                      # Key files (if not needed)
